@@ -52,6 +52,7 @@ Pycharm может предложить вам сделать это после 
 - part1/string_to_ascii_gen
 - part1/tolerance
 - part1/from_for_to_listc
+- part1/from_listc_to_dict
 
 #### Часть 2:
 
