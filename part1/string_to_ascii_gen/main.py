@@ -11,7 +11,7 @@ input_str = "hello my friend"
 
 
 def convert(input_str):
-    return (ord(item) for item in input_str)
+    return []
 
 
 if __name__ == "__main__":
