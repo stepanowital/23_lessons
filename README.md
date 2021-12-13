@@ -56,7 +56,16 @@ Pycharm может предложить вам сделать это после 
 
 #### Часть 2:
 
-- part2/magic
+- part2/lambda
+- part2/foo_bar_test
+- part2/city_expert
+- part2/region_cities
+- part2/sorted_cities
+- part2/tasks_chain
+- part2/
+- part2/top3
+- part2/counting
+
 
 
 Задачи описаны в комментариях в файле main.py
