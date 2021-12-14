@@ -16,7 +16,8 @@ towns = [Town('Балашиха', 'МО'), Town('Химки', 'МО'), Town('Т�
 
  
 def filter_towns(towns):
-    return [x. name for x in filter(lambda v: v.region == 'МО', towns)]
+    # TODO напишите свой код здесь
+    pass
 
 if __name__ == "__main__":
     print(filter_towns(towns))
