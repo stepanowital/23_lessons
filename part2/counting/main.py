@@ -4,7 +4,7 @@
 # на выходе должна возвращать словарь, 
 # где ключ - регион, значение - количество городов в этом регионе. 
 # Для решения задачи следует применить defaultdict.
-from collections import namedtuple, defaultdict
+from collections import namedtuple
 
 Town = namedtuple('Town', ['name', 'region'])
  

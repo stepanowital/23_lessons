@@ -19,7 +19,7 @@ class ExceptionTestCase(SkyproTestCase):
         try:
             result = cant_work(test_list)
         except Exception as e:
-            self.fail("%@Прьверьте, что функция cant_work перехватывает исключение")
+            self.fail("%@Проверьте, что функция cant_work перехватывает исключение")
 
         self.assertTrue(
             result == "Исключение поймано",
