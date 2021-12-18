@@ -23,7 +23,7 @@ class FuncTestCase(SkyproTestCase):
         result = self.func('qqqqqqqqqwwwwwwwwwwweeeeeeeeeeetttttest')
         self.assertTrue(
             isinstance(result, list),
-            "%@Проверьте, что ваша функция возвращает данние в виде списка"
+            "%@Проверьте, что ваша функция возвращает данные в виде списка"
         )
 
         self.assertTrue(
@@ -50,6 +50,7 @@ class FuncTestCase(SkyproTestCase):
             "Counter", inspect.getsource(self.func),
             "%@Проверьте, нам бы хотелось, чтобы вы использовали Counter в теле вашей функции"
         )
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -3,8 +3,10 @@ class Town:
         self.id = id
         self.name = name
         self.region = region
+
     def __repr__(self):
         return f'{self.region} - {self.name}'
+
 
 towns = [Town(1, 'Балашиха', 'МО'), Town(2, 'Химки', 'МО'), Town(3, 'Тула', 'Тульская область')]
 

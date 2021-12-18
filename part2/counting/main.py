@@ -9,10 +9,12 @@ from collections import namedtuple
 Town = namedtuple('Town', ['name', 'region'])
  
 towns = [Town('балашиха', 'мо'), Town('химки', 'мо'), Town('тула', 'тульская область')]
- 
+
+
 def counter(towns):
     # TODO напишите код функции здесь
     pass
+
 
 if __name__ == "__main__":
     print(counter(towns))

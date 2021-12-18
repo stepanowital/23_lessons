@@ -7,10 +7,12 @@
 
 
 streets = ['ленина', 'советская', 'краснооктябрьская', 'первомайская']
- 
+
+
 def get_tuples(input_arr):
-   # TODO напишите Ваш код здесь
-   pass
+    # TODO напишите Ваш код здесь
+    pass
+
 
 if __name__ == "__main__":
     print(get_tuples(streets))
