@@ -51,5 +51,6 @@ class AverageAgeTestCase(SkyproTestCase):
             "%@Проверьте что Ваша функция возвращает корректный результат"
         )
 
+
 if __name__ == "__main__":
     unittest.main()
