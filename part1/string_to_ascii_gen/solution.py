@@ -6,4 +6,5 @@ def convert(input_str):
 
 
 if __name__ == "__main__":
-    print(convert(input_str))
+    for _ in convert(input_str):
+        print(convert(input_str).__next__())

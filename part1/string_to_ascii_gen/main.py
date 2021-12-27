@@ -1,18 +1,18 @@
 # Нужно реализовать функцию convert,
 # которая должна преобразовывать строку input_str
 # в массив аски-кодов (https://ru.wikipedia.org/wiki/ASCII).
-# ASCII -  таблица, в которой некоторым распространённым
-# печатным и непечатным символам сопоставлены числовые коды.
-# Для получения кода ASCII нужно воспользоваться функцией ord.
-# https://docs.python.org/3/library/functions.html#ord
+# Ваша функция должна возвращать генератор,
+# который при каждом вызове метода __next__ возвращает акси-код буквы
+# из полученной строки input_str
 
 
 input_str = "hello my friend"
 
 
 def convert(input_str):
-    return []
+    return ()
 
 
 if __name__ == "__main__":
-    print([x for x in convert(input_str)])
+    for _ in convert(input_str):
+        print(convert(input_str).__next__())
