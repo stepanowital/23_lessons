@@ -23,4 +23,5 @@ def build_dict(towns):
     return {t.name: t.region for t in towns}
 
 
-print(x for x in build_dict(towns))
+if __name__ == "__main__":
+    print(build_dict(towns))

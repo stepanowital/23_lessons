@@ -14,4 +14,5 @@ def build_dict(towns):
     return res
 
 
-build_dict(towns)
+if __name__ == "__main__":
+    print([x for x in build_dict(towns)])
