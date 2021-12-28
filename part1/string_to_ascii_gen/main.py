@@ -14,5 +14,5 @@ def convert(input_str):
 
 
 if __name__ == "__main__":
-    for _ in convert(input_str):
-        print(convert(input_str).__next__())
+    for letter in convert(input_str):
+        print(letter)
