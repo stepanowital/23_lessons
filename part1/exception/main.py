@@ -6,12 +6,16 @@
 # Ваша задача обработать возможные ошибки, которые могут быть (на вход подаются только цифры).
 # В часах ввели цифру, которая не входит в отрезок [0,23].
 # В минутах ввели цифру, которая не входит в отрезок [0,59]
+class ParseError(Exception):
+    pass
 
 
 def parse(hours, minutes):
     if hours > 23 or hours < 0:
-        # TODO кинуть ParseError
-        pass
+        raise ParseError
+
     if minutes > 59 or minutes < 0:
-        # TODO кинуть ParseError
-        pass
+        raise ParseError
+
+
+print(parse(23, 0))
